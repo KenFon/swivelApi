@@ -18,7 +18,8 @@ def sample_formation(**params):
     defaults = {
         'name': 'Sample recipe',
         'time': 10,
-        'lieu': 'MDNI'
+        'place': 'MDNI',
+        'jobID': 5
     }
     defaults.update(params)
 

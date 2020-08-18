@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'core.apps.CoreConfig',
     'formation.apps.FormationConfig',
+    'artisan.apps.ArtisanConfig',
 ]
 
 MIDDLEWARE = [

@@ -8,5 +8,5 @@ class FormationSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Formation
-        fields = ('id', 'name', 'lieu', 'time')
+        fields = ('id', 'name', 'place', 'time')
         read_only_field = ('id', )
